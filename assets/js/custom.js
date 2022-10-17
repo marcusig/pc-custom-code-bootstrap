@@ -5,6 +5,9 @@
 		// All the DOM has been added, and before showing it.
 		// A good place to move or add dom elements, unless if they are related to choices or layers. 
 		// In this case, do this using the appropriate hooks.
+
+		// E.g. enable the +/- buttons in blocksy theme:
+		ctFrontend.handleEntryPoints( ctFrontend.allFrontendEntryPoints );
 	});
 
 } )( jQuery );

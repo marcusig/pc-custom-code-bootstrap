@@ -34,7 +34,7 @@ function mkl_custom_add_scripts() {
 
 	// Enqueue a CSS file
 	wp_enqueue_style(
-		'mkl_pc/Custom/js', 
+		'mkl_pc/Custom/css', 
 		trailingslashit( plugin_dir_url( __FILE__ ) ) . 'assets/css/custom.css', 
 		[],
 		filemtime( trailingslashit( plugin_dir_path ( __FILE__ ) ) . 'assets/css/custom.css' ) 
