@@ -7,7 +7,7 @@
 		// In this case, do this using the appropriate hooks.
 
 		// E.g. enable the +/- buttons in blocksy theme:
-		ctFrontend.handleEntryPoints( ctFrontend.allFrontendEntryPoints );
+		// if ( ctFrontend && ctFrontend.handleEntryPoints ) ctFrontend.handleEntryPoints( ctFrontend.allFrontendEntryPoints );
 	});
 
 } )( jQuery );
